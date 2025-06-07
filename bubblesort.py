@@ -1,3 +1,5 @@
+import time
+
 def bubblesort(array):
     # Definimos número de elementos de la lista
     lenght = len(array)
@@ -12,7 +14,15 @@ def bubblesort(array):
 
     return array
 
+# Iniciamos el contador de tiempo
+startTime = time.perf_counter()
+
 # Ejemplo de uso
 numbers = [3,5,12,3,2,451,5,1,23,5,73,21,4,12,1]
 sortedNumbers = bubblesort(numbers)
 print("Sorted numbers:", sortedNumbers)
+
+# Calculamos y mostramos el tiempo de ejecucion
+endTime = time.perf_counter()
+
+print("Execution time: ", endTime - startTime)
