@@ -18,7 +18,7 @@ def bubblesort(array):
 startTime = time.perf_counter()
 
 # Ejemplo de uso
-numbers = [3,5,12,3,2,451,5,1,23,5,73,21,4,12,1]
+numbers = [3,5,12,3,2,451,5,1]
 sortedNumbers = bubblesort(numbers)
 print("Sorted numbers:", sortedNumbers)
 

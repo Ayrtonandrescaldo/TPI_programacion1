@@ -22,7 +22,7 @@ def isSorted(array):
 startTime = time.perf_counter()
 
 # Ejemplo de uso
-numbers = [3,5,12,421,3]
+numbers = [3,5,12,3,2,451,5,1]
 sortedNumbers = bogosort(numbers)
 print("Sorted numbers:", sortedNumbers) 
 
