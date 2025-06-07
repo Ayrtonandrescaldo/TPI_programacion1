@@ -1,3 +1,6 @@
+
+import time
+
 def quicksort(array):
     # Condicion de corte de recursividad para evitar que se ejecute infinitamente
     if len(array) <= 1:
@@ -20,8 +23,15 @@ def quicksort(array):
     # Invocamos la funcion recursivamente para ordenar el resto de elementos comprendidos en las listas de menores y mayores
     return quicksort(lessThanTarget) + [target] + quicksort(greaterThanTarget)
 
+# Iniciamos el contador de tiempo
+startTime = time.perf_counter()
 
 # Ejemplo de uso
 numbers = [3,5,12,3,2,451,5,1,23,5,73,21,4,12,1]
 sortedNumbers = quicksort(numbers)
 print("Sorted numbers:", sortedNumbers) 
+
+# Calculamos y mostramos el tiempo de ejecucion
+endTime = time.perf_counter()
+
+print("Execution time: ", endTime - startTime)

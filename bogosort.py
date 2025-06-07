@@ -1,3 +1,4 @@
+import time
 import random
 
 def bogosort(array):
@@ -17,7 +18,15 @@ def isSorted(array):
     return True
 
 
+# Iniciamos el contador de tiempo
+startTime = time.perf_counter()
+
 # Ejemplo de uso
 numbers = [3,5,12,421,3]
 sortedNumbers = bogosort(numbers)
 print("Sorted numbers:", sortedNumbers) 
+
+# Calculamos y mostramos el tiempo de ejecucion
+endTime = time.perf_counter()
+
+print("Execution time: ", endTime - startTime)
