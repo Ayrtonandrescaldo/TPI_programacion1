@@ -1,7 +1,6 @@
-import time
 import random
 
-def bogosort(array):
+def sort(array):
     # Mientras que la lista no se encuentre ordenada, se vuelve a ordenar aleatoriamente
     while not isSorted(array):
         random.shuffle(array)
@@ -16,17 +15,3 @@ def isSorted(array):
         if array[i] > array[i + 1]:
             return False
     return True
-
-
-# Iniciamos el contador de tiempo
-startTime = time.perf_counter()
-
-# Ejemplo de uso
-numbers = [3,5,12,3,2,451,5,1]
-sortedNumbers = bogosort(numbers)
-print("Sorted numbers:", sortedNumbers) 
-
-# Calculamos y mostramos el tiempo de ejecucion
-endTime = time.perf_counter()
-
-print("Execution time: ", endTime - startTime)
