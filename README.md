@@ -21,3 +21,9 @@ Los algoritmos que elegimos fueron **Quick Sort**, **Bubble Sort** y **Bogosort*
 
 El siguiente trabajo tiene como objetivo el **estudio de los algoritmos de ordenamiento**, fundamentales en el desarrollo de software y en el procesamiento eficiente de datos.  
 A través de una **investigación teórica** y una **implementación en Python**, se buscará **analizar el comportamiento y desempeño de tres algoritmos de ordenamiento diferentes** frente al procesamiento de dos conjuntos de datos.
+
+---
+
+## 📹  Defensa del Trabajo
+
+🔗 https://www.youtube.com/watch?v=BpncAn3C86E
