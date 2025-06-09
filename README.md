@@ -2,6 +2,7 @@
 integrantes del grupo:   
 Agustín Lago - comision 16
 Ayrton Caldo - comision 11
+
 Profesorado: Ariel Enferrel & Cinthia Rigoni
 
 presentacion del tema:
